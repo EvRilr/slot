@@ -18,6 +18,7 @@
 .tdone{
     width: 290px;
     writing-mode: vertical-rl;
+    margin: 10px;
 }
 .tdtwo{
 
@@ -30,4 +31,16 @@
     height:150px;
     width:150px;
     float:inherit;
+}
+.button_container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100px;
+}
+.button{
+    width:100px;
+    height:40px;
+    font-size: 20px;
+    font-weight:bold;
 }
