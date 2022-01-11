@@ -1,0 +1,33 @@
+.divtop{
+    height: 210px;
+}
+.divtable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    width:560px;
+    height:200px;
+    border:10px;
+    border-style:solid;
+}
+.firstth{
+    height: 30px;
+}
+.tdone{
+    width: 290px;
+    writing-mode: vertical-rl;
+}
+.tdtwo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 155px;
+}
+.image{
+    height:150px;
+    width:150px;
+    float:inherit;
+}

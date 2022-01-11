@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="slot.css" >
+ <script src="slot.js"></script>
+ <title>抽獎</title>
+</head>
+ 
+<body background="images/background.jpg" style="background-size: 640px 640px;">
+<div class="divtop"></div>
+<div class="divtable">
+<table class="table">
+    <thead>
+        <tr>
+            <th colspan="2" class="firstth">The table header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="tdone">
+            <p id="textbox">
+      春眠不覺曉，<br>
+      處處聞啼鳥。<br>
+      夜來風雨聲，<br>
+      花落知多少。
+            </p>
+            </td>
+            <td class="tdtwo">
+            <img id="box1" class="image"src="images/1.PNG">
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+    <div class="button_container">
+        <button onclick="get_random_text()" class="button">抽獎</button>
+    </div>
+</body>
+</html>
