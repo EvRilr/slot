@@ -32,6 +32,10 @@
     width:150px;
     float:inherit;
 }
+.textbox{
+    height: 250px;
+    width: 250px;
+}
 .button_container{
     display: flex;
     justify-content: center; 
